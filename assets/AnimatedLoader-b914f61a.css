@@ -1,0 +1,14 @@
+.browser-ui-nav-control {
+    height: .5rem;
+    width: .5rem;
+    border-radius: var(--border-radius-full, 9999px);
+    --tw-bg-opacity: 1;
+    background-color: rgb(203 213 225 / var(--tw-bg-opacity))
+}
+
+@media (min-width: 640px) {
+    .browser-ui-nav-control {
+        height:.75rem;
+        width: .75rem
+    }
+}
